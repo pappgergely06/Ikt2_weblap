@@ -1,0 +1,4 @@
+Projekt neve: Focus autószerviz weblap
+Csapatvezető neve: Papp Gergely Gyula
+Tagok nevei:Papp Gergely Gyula, Harman Levente, Markos Gergő
+Projekt rövid leírása:Weboldal készítése egy kébzeletbeli autószerelő műhely részére.
