@@ -29,6 +29,35 @@
 
 
     </nav>
-    
+    <div class="container containerr">
+        <h1 class="text-center">Kapcsolatfelvételi lehetőség</h1>
+        <br>
+        <form>
+
+            <label for="vnev">Vezetéknév</label>
+            <input type="text" id="vnev" name="vezeteknev" placeholder="Vezetékneve..">
+        
+            <label for="knev">Keresztnév</label>
+            <input type="text" id="knev" name="keresztnev" placeholder="Keresztneve..">
+        
+            <label for="tipus">Szolgáltatás típusa</label>
+            <select id="tipus" name="tipus">
+              <option value="olajcsere">Olajcsere</option>
+              <option value="fekbetetcsere">Fékbetét csere</option>
+              <option value="kerek-kiegyensulyozas">Kerék kiegyensúlyozás</option>
+              <option value="klimatoltes">Klímatöltés</option>
+              <option value="vizsgaztatas">Vizsgáztatás</option>
+              <option value="hibafeltaras">Hibafeltárás</option>
+            </select><br>
+
+            <label for="uzenet">Üzenet</label>
+            <textarea id="uzenet" name="uzenet" placeholder="Írjon üzenetet.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Elküld">
+          </form>
+          <footer>
+            <p class="jumbotron container-fluid text-center">Készítette: Papp Gergely Gyula, Markos Gergő, Harman Levente</p>
+        </footer>
+    </div>
 </body>
 </html>
